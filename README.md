@@ -34,10 +34,7 @@ Geographic coordinates were transformed from WGS84 (EPSG:4326) to UTM Zone 43N (
 4. Optimization
 
 The objective is to minimize:
-$$
-\frac{\sum_{i} \omega_{i}d(i,h_{i})}{\sum_{i}\omega_{i}}
-$$
-
+Weighted Average Distance = (Σᵢ ωᵢ d(i,hᵢ)) / (Σᵢ ωᵢ)
 where:
 
 - $\omega_i$ = order volume of customer $i$
