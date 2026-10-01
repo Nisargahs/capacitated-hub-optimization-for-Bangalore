@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+# Large raw OSM files
+*.osm.pbf
+*.geojson
+
+# Raw downloaded dataset
+archive.zip
+online_shop/
+
+# Intermediate customer dataset
+customer_locations.csv
