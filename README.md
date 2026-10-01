@@ -34,11 +34,14 @@ Geographic coordinates were transformed from WGS84 (EPSG:4326) to UTM Zone 43N (
 4. Optimization
 
 The objective is to minimize:
- \frac{\sum_{i} \omega_{i}d(i,h_{i})}{\sum_{i}\omega_{i}}
+$$
+\frac{\sum_{i} \omega_{i}d(i,h_{i})}{\sum_{i}\omega_{i}}
+$$
+
 where:
 
-\omega_{i} = order volume of customer \(i\)
-$d(i,h_i)$ = distance from customer $i$ to its assigned hub
+- $\omega_i$ = order volume of customer $i$
+- $d(i,h_i)$ = distance from customer $i$ to its assigned hub
 - $h_i$ = hub assigned to customer $i$
 
 Each customer is assigned to exactly one hub, with a maximum of 2,500 customers per hub.
